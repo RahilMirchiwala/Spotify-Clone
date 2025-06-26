@@ -1,0 +1,73 @@
+.border {
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.item.justify-center {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.invert {
+    /* This invert image color */
+    filter: invert(1);
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* For Webkit-based browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    height: 12px; /* Height of the scrollbar (horizontal) */
+}
+
+::-webkit-scrollbar-track {
+    background: #2c2c2c; /* Background of the track */
+    border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555; /* Color of the thumb (the draggable part) */
+    border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777; /* Lighter shade when hovered */
+}
+
+/* For Firefox (custom scrollbar styling) */
+html {
+    scrollbar-width: thin; /* Makes the scrollbar thinner */
+    scrollbar-color: #555 #2c2c2c; /* Thumb color and track color */
+}
+
+/* Optional: Scrollbar for entire page */
+body {
+    overflow-y: scroll; /* Ensures scrollbar is always visible */
+}
